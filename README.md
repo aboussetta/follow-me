@@ -47,10 +47,3 @@ data/weights - contains trained TensorFlow models
 data/raw_sim_data/train/run1
 data/raw_sim_data/validation/run1
 ```
-
-### Image Preprocessing ###
-Before the network is trained, the images first need to be undergo a preprocessing step. The preprocessing step transforms the depth masks from the sim, into binary masks suitable for training a neural network. It also converts the images from .png to .jpeg to create a reduced sized dataset, suitable for uploading to AWS. 
-To run preprocessing:
-```
-$ python preprocess_ims.py
-```
