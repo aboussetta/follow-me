@@ -14,6 +14,11 @@ In this project I used a fully-convolutional neural network to paint all pixels 
 - I ran this on Udacity Robotics Laboratory Community AMI in AWS 
 - https://github.com/mithi/follow-me/blob/master/code/model_training.ipynb
 
+# Images Used
+- [New training Data](https://s3-us-west-1.amazonaws.com/udacity-robotics/Deep+Learning+Data/Lab/train.zip)
+- [Validation Data](https://s3-us-west-1.amazonaws.com/udacity-robotics/Deep+Learning+Data/Lab/validation.zip)
+- [Sample Evaluation Data](https://s3-us-west-1.amazonaws.com/udacity-robotics/Deep+Learning+Data/Project/sample_evaluation_data.zip)
+
 [image_0]: ./docs/misc/sim_screenshot.png
 ![alt text][image_0] 
 
