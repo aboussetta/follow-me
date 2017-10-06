@@ -120,7 +120,6 @@ def score_run_iou(gt_dir, pred_dir):
     gt_files = sorted(glob.glob(os.path.join(gt_dir, 'masks', '*.png')))
     pred_files = sorted(glob.glob(os.path.join(pred_dir, '*.png')))
     ious = [0,0,0]
-    print(glob.glob(os.path.join(gt_dir, 'masks', '*.png')))
     n_preds = len(gt_files)
     n_true_pos = 0
     n_false_neg = 0
