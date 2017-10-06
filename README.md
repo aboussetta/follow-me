@@ -4,13 +4,13 @@
 
 In this project I used a fully-convolutional neural network to paint all pixels in an image which is part of a person. Two types of persons are identified, the “hero” target person, and everyone else. Identifying a specific person from everyone else are useful for “follow-me” operations of a drone. This is the final project for Udacity's Robotics Nanodegree Term 1. 
 
-# Here is my writeup
+# WRITEUP
 - https://github.com/mithi/follow-me/blob/master/WRITEUP.pdf
 
-# The original repository can be found here
-- git clone https://github.com/udacity/RoboND-DeepLearning.git
+# ORIGINAL REPO
+- https://github.com/udacity/RoboND-DeepLearning
 
-# Here is the Jupyter Notebook 
+# Jupyter Notebook 
 - I ran this on Udacity Robotics Laboratory Community AMI in AWS 
 - https://github.com/mithi/follow-me/blob/master/code/model_training.ipynb
 
