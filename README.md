@@ -4,11 +4,14 @@
 
 In this project I used a fully-convolutional neural network to paint all pixels in an image which is part of a person. Two types of persons are identified, the “hero” target person, and everyone else. Identifying a specific person from everyone else are useful for “follow-me” operations of a drone. This is the final project for Udacity's Robotics Nanodegree Term 1. 
 
-# WRITEUP
-- https://github.com/mithi/follow-me/blob/master/WRITEUP.pdf
-
 # ORIGINAL REPO
 - https://github.com/udacity/RoboND-DeepLearning
+
+# WRITEUP and other Requirements
+- writeup: https://github.com/mithi/follow-me/blob/master/docs/WRITEUPV2.pdf
+- model: https://github.com/mithi/follow-me/blob/master/data/weights/config_model_weights.h5
+- weights: https://github.com/mithi/follow-me/blob/master/data/weights/model_weights.h5
+- html: https://github.com/mithi/follow-me/blob/master/docs/model_training.html
 
 # Jupyter Notebook 
 - I ran this on Udacity Robotics Laboratory Community AMI in AWS 
@@ -26,7 +29,6 @@ In this project I used a fully-convolutional neural network to paint all pixels 
 
 You'll need Python 3 and Jupyter Notebooks installed to do this project.  The best way to get setup with these if you are not already is to use Anaconda following along with the [RoboND-Python-Starterkit](https://github.com/udacity/RoboND-Python-StarterKit).
 
-If for some reason you choose not to use Anaconda, you must install the following frameworks and packages on your system:
 * Python 3.x
 * Tensorflow 1.2.1
 * NumPy 1.11
@@ -40,7 +42,8 @@ If for some reason you choose not to use Anaconda, you must install the followin
 * transforms3d
 * PyQt4/Pyqt5
 
-The data directory is organized as follows:
+**The data directory is organized as follows: **
+
 ```
 data/runs - contains the results of prediction runs
 data/train/images - contains images for the training set
